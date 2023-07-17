@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "rootDir": "./lib",
+    "outDir": "./dist",
+    "target": "ES2021",
+    "noLib": false,
+    "skipLibCheck": true
+  },
+  "include": ["lib/**/*", "../index.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
